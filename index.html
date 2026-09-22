@@ -170,8 +170,44 @@
   .faq-item p{color:var(--ink-soft); margin:12px 0 0; font-size:14.5px;}
 
   /* ===== PARTNERS ===== */
-  .partners-row{display:flex; flex-wrap:wrap; gap:14px;}
-  .partner-slot{flex:1; min-width:150px; border:1px dashed var(--line); background:var(--white); padding:26px 16px; text-align:center; font-family:var(--mono); font-size:12.5px; color:var(--ink-soft);}
+
+.partners-row{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:12px;
+    margin:30px auto;
+    width:100%;
+}
+
+.partner-slot{
+    flex:0 0 160px;
+    height:120px;
+    background:#fff;
+    border:1px solid #ddd;
+    border-radius:4px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:8px;
+}
+
+
+.partner-slot img{
+    max-width:100%;
+    max-height:90px;
+    object-fit:contain;
+}
+
+#partners .container{
+    text-align:center;
+}
+
+#partners .section-head{
+    max-width:none;
+    text-align:center;
+    margin:0 auto 40px auto;
+}
 
   /* ===== CONTACT ===== */
   .contact-grid{display:grid; grid-template-columns:.9fr 1.1fr; gap:50px;}
@@ -238,12 +274,12 @@
   <section class="hero">
     <div class="container hero-inner">
       <div>
-        <p class="eyebrow" data-i18n="hero_eyebrow">Première édition · 21–23 décembre 2026 · Agadir</p>
+        <p class="eyebrow" data-i18n="hero_eyebrow">Première édition · 18–20 décembre 2026 · Agadir</p>
         <h1 data-i18n="hero_title">Congrès International<br>sur les Géosciences</h1>
         <p class="theme-line" data-i18n="hero_theme">« Les Sciences de la Terre à l'ère de l'Intelligence Artificielle : nouveaux horizons et intégration des connaissances »</p>
         <p data-i18n="hero_desc">Le Laboratoire GEG, Faculté des Sciences d'Agadir — Université Ibn Zohr, réunit chercheurs, doctorants et professionnels autour des grands enjeux actuels des sciences de la Terre.</p>
         <div class="hero-meta">
-          <span data-i18n="hero_meta_date">📅 21–23 décembre 2026</span>
+          <span data-i18n="hero_meta_date">📅 18–20 décembre 2026</span>
           <span data-i18n="hero_meta_place">📍 Faculté des Sciences, Agadir, Maroc</span>
         </div>
         <div class="hero-cta">
@@ -316,7 +352,28 @@
           <th data-i18n="th_name">Nom</th><th data-i18n="th_university">Université</th><th data-i18n="th_country">Pays</th><th data-i18n="th_speciality">Spécialité</th>
         </tr></thead>
         <tbody>
-          <tr><td colspan="4" style="text-align:center;color:var(--ink-soft);" data-i18n="committee_placeholder">— Liste en cours de finalisation —</td></tr>
+          <tr><td>Pr. Mohamed ABIOUI</td><td>Faculté des Sciences, Université Ibn Zohr, Agadir</td><td>Morocco / Maroc</td><td>Geosciences</td></tr>
+<tr><td>Pr. Mohamed AIT HADDOU</td><td>Faculté des Sciences, Université Ibn Zohr, Agadir</td><td>Morocco / Maroc</td><td>Geosciences</td></tr>
+<tr><td>Pr. Ahmed ALGOUTI</td><td>Faculté des Sciences Semlalia, Marrakech</td><td>Morocco / Maroc</td><td>Geosciences</td></tr>
+<tr><td>Pr. Ali AYDDA</td><td>Faculté des Sciences, Université Ibn Zohr, Agadir</td><td>Morocco / Maroc</td><td>Geosciences</td></tr>
+<tr><td>Pr. Abouchouaib BELAHMIRA</td><td>Faculté des Sciences, Université Chouaib Doukkali</td><td>Morocco / Maroc</td><td>Geosciences</td></tr>
+<tr><td>Pr. Mhamed Alaeddine BELFOUL</td><td>Faculté des Sciences, Université Ibn Zohr, Agadir</td><td>Morocco / Maroc</td><td>Geosciences</td></tr>
+<tr><td>Pr. Othmane BOUALLA</td><td>Faculté des Sciences, Université Ibn Zohr, Agadir</td><td>Morocco / Maroc</td><td>Geosciences</td></tr>
+<tr><td>Pr. Youssef BOUCHRITI</td><td>ISPITS, Agadir</td><td>Morocco / Maroc</td><td>Health & Environmental Sciences</td></tr>
+<tr><td>Pr. Said BOUTALEB</td><td>Faculté des Sciences, Université Ibn Zohr, Agadir</td><td>Morocco / Maroc</td><td>Geosciences</td></tr>
+<tr><td>Pr. Khalid EL KHALIDI</td><td>Faculté des Sciences, Université Chouaib Doukkali</td><td>Morocco / Maroc</td><td>Environmental Sciences</td></tr>
+<tr><td>Pr. Ahmed FADILI</td><td>EST Khénifra, Université Sultan Moulay Slimane</td><td>Morocco / Maroc</td><td>Applied Sciences</td></tr>
+<tr><td>Pr. Fatiha HADACH</td><td>Faculté des Sciences, Université Ibn Zohr, Agadir</td><td>Morocco / Maroc</td><td>Geosciences</td></tr>
+<tr><td>Pr. Belkacem KABBACHI</td><td>Faculté des Sciences, Université Ibn Zohr, Agadir</td><td>Morocco / Maroc</td><td>Environmental Sciences</td></tr>
+<tr><td>Pr. Fouad KHIRI</td><td>CRMEF, Inzegane, Agadir</td><td>Morocco / Maroc</td><td>Education & Sciences</td></tr>
+<tr><td>Pr. Frédéric LEONE</td><td>Université Montpellier 3</td><td>France</td><td>Natural Hazards & Risk Management</td></tr>
+<tr><td>Pr. Khalid MEHDI</td><td>Faculté Polydisciplinaire de Khouribga, Université Sultan Moulay Slimane</td><td>Morocco / Maroc</td><td>Environmental Sciences</td></tr>
+<tr><td>Pr. Saliha NAJIB</td><td>Faculté Polydisciplinaire de Khouribga, Université Sultan Moulay Slimane</td><td>Morocco / Maroc</td><td>Water Resources</td></tr>
+<tr><td>Pr. Mohammed OUCHCHEN</td><td>Faculté des Sciences, Université Ibn Zohr, Agadir</td><td>Morocco / Maroc</td><td>Geosciences</td></tr>
+<tr><td>Pr. Sofyan SBAHI</td><td>Faculté des Sciences, Université Ibn Zohr, Agadir</td><td>Morocco / Maroc</td><td>Geoinformatics & AI</td></tr>
+<tr><td>Pr. Abdelhalim TABIT</td><td>Faculté des Sciences Semlalia, Marrakech</td><td>Morocco / Maroc</td><td>Geosciences</td></tr>
+<tr><td>Pr. Abderrahmane WANAIM</td><td>Faculté des Sciences, Université Ibn Zohr, Agadir</td><td>Morocco / Maroc</td><td>Geosciences</td></tr>
+<tr><td>Pr. Bendahhou ZOURARAH</td><td>Faculté des Sciences, Université Chouaib Doukkali</td><td>Morocco / Maroc</td><td>Environmental Sciences</td></tr>
         </tbody>
       </table>
       <p class="note-box" data-i18n="committee_note">La composition définitive des comités d'organisation et scientifique sera publiée prochainement sur cette page.</p>
@@ -338,7 +395,14 @@
       <div class="cta-card">
         <h4 data-i18n="submission_cta_title">Prêt à soumettre ?</h4>
         <p data-i18n="submission_cta_body">Remplissez le formulaire en ligne (Google Forms) avant le 1er septembre 2026. Vous recevrez un accusé de réception automatique.</p>
-        <a href="#" class="btn btn-white" style="width:100%; justify-content:center;" data-i18n="submission_cta_btn">Accéder au formulaire de soumission ↗</a>
+        <a href="https://forms.gle/6nCihsfYU8zcDyDx8"
+   target="_blank"
+   rel="noopener noreferrer"
+   class="btn btn-white"
+   style="width:100%; justify-content:center;"
+   data-i18n="submission_cta_btn">
+   Accéder au formulaire de soumission ↗
+</a>
       </div>
     </div>
   </section>
@@ -360,7 +424,14 @@
       <div class="cta-card">
         <h4 data-i18n="registration_cta_title">Réservez votre place</h4>
         <p data-i18n="registration_cta_body">Inscription avant le 15 novembre 2026. Paiement uniquement par virement bancaire.</p>
-        <a href="#" class="btn btn-white" style="width:100%; justify-content:center;" data-i18n="registration_cta_btn">Accéder au formulaire d'inscription ↗</a>
+        <a href="https://forms.gle/S4NnqRKiYCWokF7g9"
+   target="_blank"
+   rel="noopener noreferrer"
+   class="btn btn-white"
+   style="width:100%; justify-content:center;"
+   data-i18n="registration_cta_btn">
+   Accéder au formulaire d'inscription ↗
+</a>
       </div>
     </div>
   </section>
@@ -385,14 +456,45 @@
       <div class="section-head">
         <p class="eyebrow" data-i18n="partners_eyebrow">Ils nous soutiennent</p>
         <h2 data-i18n="partners_title">Partenaires &amp; sponsors</h2>
-        <p data-i18n="partners_intro">Université Ibn Zohr, Faculté des Sciences d'Agadir, Laboratoire GEG — et vos logos ici.</p>
-      </div>
-      <div class="partners-row">
-        <div class="partner-slot">LOGO</div>
-        <div class="partner-slot">LOGO</div>
-        <div class="partner-slot">LOGO</div>
-        <div class="partner-slot">LOGO</div>
-      </div>
+    <p data-i18n="partners_intro" style="margin-bottom:40px;">
+Université Ibn Zohr • Faculté des Sciences d'Agadir • Laboratoire GEG • Association Océan de Spéléologie Safi (AOS) • CNRST Maroc
+</p>
+
+<div class="partners-row">
+
+    <!-- FSA -->
+    <div class="partner-slot">
+        <img src="https://drive.google.com/thumbnail?id=10ycHhQFIJR-ahkQ-74e2von8FABO6d4o&sz=w1000"
+             alt="Faculté des Sciences d'Agadir">
+    </div>
+
+    <!-- UIZ -->
+    <div class="partner-slot">
+        <img src="https://drive.google.com/thumbnail?id=1x2PNjmyL16TYA6qeigThTB8g-55kCxUt&sz=w1000"
+             alt="Université Ibn Zohr">
+    </div>
+
+    <!-- GEG -->
+    <div class="partner-slot">
+        <img src="https://drive.google.com/thumbnail?id=190R5MKqK5bX-rwetKrpgcBnB3DwiE5JR&sz=w1000"
+             alt="Laboratoire GEG">
+    </div>
+
+    <!-- AOS -->
+    <div class="partner-slot">
+        <img src="https://drive.google.com/thumbnail?id=1rTCAP168iHzkMdwlDcptr0B6O8HQ9grf&sz=w1000"
+             alt="Association Océan de Spéléologie Safi">
+    </div>
+
+    <!-- CNRST -->
+    <div class="partner-slot">
+        <img src="https://drive.google.com/thumbnail?id=1CwVC7aJ6VM7m3AqXB2wGLFilSpRjwzAN&sz=w1000"
+             alt="CNRST Maroc">
+    </div>
+
+</div>
+
+</div>
     </div>
   </section>
 
@@ -445,11 +547,11 @@ fr: {
   nav_about:"À propos", nav_themes:"Thématiques", nav_program:"Programme", nav_committees:"Comités",
   nav_submission:"Soumission", nav_registration:"Inscription", nav_practical:"Infos pratiques", nav_contact:"Contact",
   nav_register_cta:"S'inscrire",
-  hero_eyebrow:"Première édition · 21–23 décembre 2026 · Agadir",
+  hero_eyebrow:"Première édition · 18–20 décembre 2026 · Agadir",
   hero_title:"Congrès International<br>sur les Géosciences",
   hero_theme:"« Les Sciences de la Terre à l'ère de l'Intelligence Artificielle : nouveaux horizons et intégration des connaissances »",
   hero_desc:"Le Laboratoire GEG, Faculté des Sciences d'Agadir — Université Ibn Zohr, réunit chercheurs, doctorants et professionnels autour des grands enjeux actuels des sciences de la Terre.",
-  hero_meta_date:"📅 21–23 décembre 2026", hero_meta_place:"📍 Faculté des Sciences, Agadir, Maroc",
+  hero_meta_date:"📅 18–20 décembre 2026", hero_meta_place:"📍 Faculté des Sciences, Agadir, Maroc",
   hero_cta_submit:"Soumettre un résumé", hero_cta_register:"S'inscrire au congrès",
   core_label:"Carotte stratigraphique — dates clés",
   about_eyebrow:"À propos", about_title:"Le mot du coordinateur",
@@ -465,20 +567,28 @@ fr: {
   ],
   themes_eyebrow:"Programme scientifique", themes_title:"Thématiques du congrès",
   themes_intro:"Le CIG 2026 s'articule autour de trois grands axes, déclinés en six thématiques principales.",
-  tracks:["Les géosciences et l'IA, quelle relation ?","Les géosciences fondamentales et appliquées","Les géosciences et le marché de l'emploi"],
+  tracks:[
+  "Géosciences fondamentales et ressources naturelles",
+  "Géosciences numériques, IA et science des données",
+  "Géorisques, environnement et changement climatique"
+],
+
   themes:[
-    ["Géologie et ressources minérales","Exploration, gisements, minéralogie appliquée."],
-    ["Hydrogéologie et ressources en eau","Nappes, gestion durable, qualité de l'eau."],
-    ["SIG et télédétection","Cartographie numérique, imagerie satellitaire."],
-    ["Risques naturels et catastrophes","Sismicité, glissements de terrain, inondations."],
-    ["Changement climatique","Impacts environnementaux et adaptation."],
-    ["Intelligence artificielle en géosciences","Modélisation, prévision, Big Data géologique."]
-  ],
+  ["1.1","Géologie et ressources minérales","Exploration, gisements, minéralogie et valorisation des ressources."],
+  ["1.2","Hydrogéologie et ressources en eau","Aquifères, qualité des eaux, gestion durable et modélisation."],
+
+  ["2.1","SIG, télédétection et géomatique","Cartographie numérique, drones, observation de la Terre et géodonnées."],
+  ["2.2","Intelligence artificielle et science des données en géosciences","Machine Learning, Deep Learning, Big Data, jumeaux numériques et modélisation prédictive."],
+
+  ["3.1","Géorisques et catastrophes naturelles","Séismes, glissements de terrain, inondations, érosion et vulnérabilité."],
+  ["3.2","Climat, environnement et développement durable","Changement climatique, résilience territoriale et gestion environnementale."]
+],
+
   program_eyebrow:"Déroulement", program_title:"Programme du congrès",
   days:[
-    {head:"Lundi 21 décembre 2026", items:[["Communications orales & posters","Sessions scientifiques en parallèle"],["Rencontre avec les acteurs économiques","Table ronde université–entreprise"]]},
-    {head:"Mardi 22 décembre 2026", items:[["Communications orales & posters","Sessions scientifiques en parallèle"],["Rencontre avec les acteurs économiques","Table ronde université–entreprise"]]},
-    {head:"Mercredi 23 décembre 2026", items:[["Excursion spéléologique","Grotte Win Timdouine, Imouzzer Ida Ou Tanane"]]}
+    {head:"Lundi 18 décembre 2026", items:[["Communications orales & posters","Sessions scientifiques en parallèle"],["Rencontre avec les acteurs économiques","Table ronde université–entreprise"]]},
+    {head:"Mardi 19 décembre 2026", items:[["Communications orales & posters","Sessions scientifiques en parallèle"],["Rencontre avec les acteurs économiques","Table ronde université–entreprise"]]},
+    {head:"Mercredi 20 décembre 2026", items:[["Excursion spéléologique","Grotte Win Timdouine, Imouzzer Ida Ou Tanane"]]}
   ],
   committees_eyebrow:"Gouvernance scientifique", committees_title:"Comités du congrès",
   committee_sci_title:"Comité scientifique",
@@ -493,14 +603,14 @@ fr: {
     "Contenu : contexte, objectifs, méthodologie, résultats, conclusion.",
     "3 à 5 mots-clés.",
     "Type de communication : orale ou poster.",
-    "Date limite : 1er septembre 2026 — Notification : 1er octobre 2026."
+    "Date limite : Octobre 31, 2026 — Notification : Novembre 16, 2026."
   ],
   submission_cta_title:"Prêt à soumettre ?",
   submission_cta_body:"Remplissez le formulaire en ligne (Google Forms) avant le 1er septembre 2026. Vous recevrez un accusé de réception automatique.",
   submission_cta_btn:"Accéder au formulaire de soumission ↗",
   registration_eyebrow:"Participer", registration_title:"Inscription au congrès",
   registration_fees_title:"Catégories et tarifs",
-  fees:[["Enseignant-chercheur","à définir"],["Doctorant","à définir"],["Étudiant","à définir"],["Professionnel","à définir"]],
+  fees:[["Enseignant-chercheur","1000 MAD / 100 Euros"],["Doctorant","500 MAD / 50 Euros"],["Étudiant","500 MAD / 50 Euros"],["Professionnel","1000 MAD / 100 Euros"]],
   registration_procedure_title:"Procédure",
   registrationProcedure:[
     "Remplir le formulaire d'inscription en ligne.",
@@ -508,7 +618,7 @@ fr: {
     "Téléverser le justificatif de virement dans le formulaire.",
     "Recevoir la confirmation de l'équipe organisatrice par email."
   ],
-  bankBox:"Nom du compte : [à compléter]<br>RIB : [à compléter]<br>Date limite d'inscription : 15 novembre 2026",
+  bankBox:"Nom du compte : [Association Ocean de Spéleologie Safi]<br>RIB : [250 590 067204005651010201]<br>Date limite d'inscription : 15 novembre 2026",
   registration_cta_title:"Réservez votre place",
   registration_cta_body:"Inscription avant le 15 novembre 2026. Paiement uniquement par virement bancaire.",
   registration_cta_btn:"Accéder au formulaire d'inscription ↗",
@@ -528,13 +638,13 @@ fr: {
     ["Comment devenir partenaire ?","Contactez l'équipe organisatrice via le formulaire de contact."]
   ],
   partners_eyebrow:"Ils nous soutiennent", partners_title:"Partenaires & sponsors",
-  partners_intro:"Université Ibn Zohr, Faculté des Sciences d'Agadir, Laboratoire GEG — et vos logos ici.",
+  partners_intro:"Université Ibn Zohr, Faculté des Sciences d'Agadir, Laboratoire GEG, Centre National Pour La Recherche Scientifique et Technique (CNRST) — et Association Ocean de Spéleologie Safi",
   contact_eyebrow:"Nous écrire", contact_title:"Contact",
   contact_lbl_org:"Organisateur", contact_lbl_email:"Email", contact_lbl_phone:"Téléphone", contact_lbl_coord:"Coordinateur",
   contact_form_name:"Nom complet", contact_form_email:"Email", contact_form_message:"Message", contact_form_send:"Envoyer le message",
   footer_text:"© 2026 CIG — Laboratoire GEG, Faculté des Sciences d'Agadir, Université Ibn Zohr.",
   footer_tagline:"Site conçu et hébergé gratuitement.",
-  dates:[["Ouverture soumissions","1 janv. 2026"],["Fin des soumissions","1 sept. 2026"],["Notification","1 oct. 2026"],["Fin inscriptions","15 nov. 2026"],["Congrès","21–23 déc. 2026"]]
+  dates:[["Ouverture soumissions","14 Sep. 2026"],["Fin des soumissions","31 Oct. 2026"],["Notification","16 Nov. 2026"],["Fin inscriptions","31 Oct. 2026"],["Congrès","18-20 Dec. 2026"]]
 },
 en: {
   nav_about:"About", nav_themes:"Themes", nav_program:"Program", nav_committees:"Committees",
@@ -544,7 +654,7 @@ en: {
   hero_title:"International Conference<br>on Geosciences",
   hero_theme:"“Earth Sciences in the Age of Artificial Intelligence: New Horizons and Knowledge Integration”",
   hero_desc:"The GEG Laboratory, Faculty of Science of Agadir — Ibn Zohr University, brings together researchers, PhD students and professionals around today's major Earth science challenges.",
-  hero_meta_date:"📅 Dec 21–23, 2026", hero_meta_place:"📍 Faculty of Science, Agadir, Morocco",
+  hero_meta_date:"📅 Dec 18–20, 2026", hero_meta_place:"📍 Faculty of Science, Agadir, Morocco",
   hero_cta_submit:"Submit an Abstract", hero_cta_register:"Register for the Conference",
   core_label:"Stratigraphic core — key dates",
   about_eyebrow:"About", about_title:"Word from the Coordinator",
@@ -560,20 +670,27 @@ en: {
   ],
   themes_eyebrow:"Scientific Program", themes_title:"Conference Themes",
   themes_intro:"ICG 2026 is organized around three main tracks, divided into six key themes.",
-  tracks:["Geosciences and AI: what relationship?","Fundamental and applied geosciences","Geosciences and the job market"],
-  themes:[
-    ["Geology and Mineral Resources","Exploration, deposits, applied mineralogy."],
-    ["Hydrogeology and Water Resources","Aquifers, sustainable management, water quality."],
-    ["GIS and Remote Sensing","Digital mapping, satellite imagery."],
-    ["Natural Hazards and Disasters","Seismicity, landslides, floods."],
-    ["Climate Change","Environmental impacts and adaptation."],
-    ["Artificial Intelligence in Geosciences","Modeling, forecasting, geological Big Data."]
-  ],
+  tracks:[
+  "Fundamental Geosciences and Natural Resources",
+  "Digital Geosciences, AI and Data Science",
+  "Geohazards, Environment and Climate Change"
+],
+
+themes:[
+  ["1.1","Geology and Mineral Resources","Exploration, deposits, applied mineralogy and resource development."],
+  ["1.2","Hydrogeology and Water Resources","Aquifers, water quality, sustainable management and modeling."],
+
+  ["2.1","GIS, Remote Sensing and Geomatics","Digital mapping, drones, Earth observation and geospatial data."],
+  ["2.2","Artificial Intelligence and Data Science in Geosciences","Machine Learning, Deep Learning, Big Data, Digital Twins and predictive modeling."],
+
+  ["3.1","Geohazards and Natural Disasters","Earthquakes, landslides, floods, erosion and risk assessment."],
+  ["3.2","Climate, Environment and Sustainable Development","Climate change, territorial resilience and environmental management."]
+],
   program_eyebrow:"Schedule", program_title:"Conference Program",
   days:[
-    {head:"Monday, December 21, 2026", items:[["Oral presentations & posters","Parallel scientific sessions"],["Meeting with economic stakeholders","University–industry roundtable"]]},
-    {head:"Tuesday, December 22, 2026", items:[["Oral presentations & posters","Parallel scientific sessions"],["Meeting with economic stakeholders","University–industry roundtable"]]},
-    {head:"Wednesday, December 23, 2026", items:[["Caving excursion","Win Timdouine cave, Imouzzer Ida Ou Tanane"]]}
+    {head:"Monday, December 18, 2026", items:[["Oral presentations & posters","Parallel scientific sessions"],["Meeting with economic stakeholders","University–industry roundtable"]]},
+    {head:"Tuesday, December 19, 2026", items:[["Oral presentations & posters","Parallel scientific sessions"],["Meeting with economic stakeholders","University–industry roundtable"]]},
+    {head:"Wednesday, December 20, 2026", items:[["Caving excursion","Win Timdouine cave, Imouzzer Ida Ou Tanane"]]}
   ],
   committees_eyebrow:"Scientific Governance", committees_title:"Conference Committees",
   committee_sci_title:"Scientific Committee",
@@ -588,14 +705,14 @@ en: {
     "Content: background, objectives, methodology, results, conclusion.",
     "3 to 5 keywords.",
     "Presentation type: oral or poster.",
-    "Deadline: September 1, 2026 — Notification: October 1, 2026."
+    "Deadline: October 31, 2026 — Notification: November 16, 2026."
   ],
   submission_cta_title:"Ready to submit?",
   submission_cta_body:"Fill out the online form (Google Forms) before September 1, 2026. You'll receive an automatic acknowledgment.",
   submission_cta_btn:"Go to submission form ↗",
   registration_eyebrow:"Take part", registration_title:"Conference Registration",
   registration_fees_title:"Categories and Fees",
-  fees:[["Faculty / Researcher","to be defined"],["PhD Student","to be defined"],["Student","to be defined"],["Professional","to be defined"]],
+  fees:[["Faculty / Researcher","1000 MAD / 100 Euros"],["PhD Student","500 MAD / 50 Euros"],["Student","500 MAD / 50 Euros"],["Professional","1000 MAD / 100 Euros"]],
   registration_procedure_title:"Procedure",
   registrationProcedure:[
     "Fill out the online registration form.",
@@ -603,7 +720,7 @@ en: {
     "Upload proof of transfer in the form.",
     "Receive confirmation from the organizing team by email."
   ],
-  bankBox:"Account name: [to be completed]<br>IBAN/RIB: [to be completed]<br>Registration deadline: November 15, 2026",
+  bankBox:"Account name: [Association Ocean de Spéleologie Safi]<br>IBAN/RIB: [250 590 067204005651010201]<br>Registration deadline: November 15, 2026",
   registration_cta_title:"Reserve your spot",
   registration_cta_body:"Register before November 15, 2026. Payment by bank transfer only.",
   registration_cta_btn:"Go to registration form ↗",
@@ -623,23 +740,23 @@ en: {
     ["How can I become a partner?","Contact the organizing team via the contact form."]
   ],
   partners_eyebrow:"Our supporters", partners_title:"Partners & Sponsors",
-  partners_intro:"Ibn Zohr University, Faculty of Science of Agadir, GEG Laboratory — and your logo here.",
+  partners_intro:"Ibn Zohr University, Faculty of Science of Agadir, GEG Laboratory, National Center for Scientific and Technical Research — and Association Ocean de Spéleologie Safi",
   contact_eyebrow:"Get in touch", contact_title:"Contact",
   contact_lbl_org:"Organizer", contact_lbl_email:"Email", contact_lbl_phone:"Phone", contact_lbl_coord:"Coordinator",
   contact_form_name:"Full name", contact_form_email:"Email", contact_form_message:"Message", contact_form_send:"Send message",
   footer_text:"© 2026 ICG — GEG Laboratory, Faculty of Science of Agadir, Ibn Zohr University.",
   footer_tagline:"Site designed and hosted for free.",
-  dates:[["Submissions open","Jan 1, 2026"],["Submission deadline","Sep 1, 2026"],["Notification","Oct 1, 2026"],["Registration deadline","Nov 15, 2026"],["Conference","Dec 21–23, 2026"]]
+  dates:[["Submissions open","Sep. 14, 2026"],["Submission deadline","Oct. 31, 2026"],["Notification","Nov. 16, 2026"],["Registration deadline","Oct. 31, 2026"],["Conference","Dec. 18-20, 2026"]]
 },
 ar: {
   nav_about:"حول المؤتمر", nav_themes:"المحاور", nav_program:"البرنامج", nav_committees:"اللجان",
   nav_submission:"تقديم الملخصات", nav_registration:"التسجيل", nav_practical:"معلومات عملية", nav_contact:"اتصل بنا",
   nav_register_cta:"التسجيل",
-  hero_eyebrow:"الدورة الأولى · 21–23 دجنبر 2026 · أكادير",
+  hero_eyebrow:"الدورة الأولى · 18–20 دجنبر 2026 · أكادير",
   hero_title:"المؤتمر الدولي<br>لعلوم الأرض",
   hero_theme:"«علوم الأرض في عصر الذكاء الاصطناعي: آفاق جديدة ودمج المعارف»",
   hero_desc:"يجمع مختبر GEG بكلية العلوم بأكادير — جامعة ابن زهر، باحثين وطلبة دكتوراه ومهنيين حول القضايا الكبرى الراهنة لعلوم الأرض.",
-  hero_meta_date:"📅 21–23 دجنبر 2026", hero_meta_place:"📍 كلية العلوم، أكادير، المغرب",
+  hero_meta_date:"📅 18–20 دجنبر 2026", hero_meta_place:"📍 كلية العلوم، أكادير، المغرب",
   hero_cta_submit:"تقديم ملخص", hero_cta_register:"التسجيل في المؤتمر",
   core_label:"العمود الطبقي — التواريخ المهمة",
   about_eyebrow:"حول المؤتمر", about_title:"كلمة المنسق",
@@ -655,20 +772,27 @@ ar: {
   ],
   themes_eyebrow:"البرنامج العلمي", themes_title:"محاور المؤتمر",
   themes_intro:"ينظم مؤتمر CIG 2026 حول ثلاثة محاور رئيسية، تتفرع إلى ستة مواضيع أساسية.",
-  tracks:["علوم الأرض والذكاء الاصطناعي: أية علاقة؟","علوم الأرض الأساسية والتطبيقية","علوم الأرض وسوق الشغل"],
-  themes:[
-    ["الجيولوجيا والموارد المعدنية","الاستكشاف، الرواسب، المعادن التطبيقية."],
-    ["الهيدروجيولوجيا والموارد المائية","الفرشات المائية، التدبير المستدام، جودة الماء."],
-    ["نظم المعلومات الجغرافية والاستشعار عن بعد","الخرائط الرقمية، الصور الساتلية."],
-    ["المخاطر الطبيعية والكوارث","الزلازل، الانزلاقات الأرضية، الفيضانات."],
-    ["التغير المناخي","الانعكاسات البيئية والتكيف."],
-    ["الذكاء الاصطناعي في علوم الأرض","النمذجة، التوقع، البيانات الضخمة الجيولوجية."]
-  ],
+  tracks:[
+  "علوم الأرض الأساسية والموارد الطبيعية",
+  "علوم الأرض الرقمية والذكاء الاصطناعي وعلوم البيانات",
+  "المخاطر الجيولوجية والبيئة والتغير المناخي"
+],
+
+themes:[
+  ["1.1","الجيولوجيا والموارد المعدنية","الاستكشاف المعدني، الرواسب، علم المعادن وتثمين الموارد."],
+  ["1.2","الهيدروجيولوجيا والموارد المائية","الفرشات المائية، جودة المياه، التدبير المستدام والنمذجة."],
+
+  ["2.1","نظم المعلومات الجغرافية والاستشعار عن بعد والجيوماتيك","الخرائط الرقمية، الطائرات بدون طيار، مراقبة الأرض والبيانات الجغرافية."],
+  ["2.2","الذكاء الاصطناعي وعلوم البيانات في علوم الأرض","التعلم الآلي، التعلم العميق، البيانات الضخمة، التوائم الرقمية والنمذجة التنبؤية."],
+
+  ["3.1","المخاطر الجيولوجية والكوارث الطبيعية","الزلازل، الانزلاقات الأرضية، الفيضانات، التعرية وتقييم المخاطر."],
+  ["3.2","المناخ والبيئة والتنمية المستدامة","التغير المناخي، المرونة المجالية والتدبير البيئي المستدام."]
+],
   program_eyebrow:"سير الأشغال", program_title:"برنامج المؤتمر",
   days:[
-    {head:"الاثنين 21 دجنبر 2026", items:[["عروض شفوية وملصقات","جلسات علمية متوازية"],["لقاء مع الفاعلين الاقتصاديين","مائدة مستديرة جامعة-مقاولة"]]},
-    {head:"الثلاثاء 22 دجنبر 2026", items:[["عروض شفوية وملصقات","جلسات علمية متوازية"],["لقاء مع الفاعلين الاقتصاديين","مائدة مستديرة جامعة-مقاولة"]]},
-    {head:"الأربعاء 23 دجنبر 2026", items:[["رحلة استكشافية للمغارات","مغارة وين تيمدوين، إموزار إيدا وتنان"]]}
+    {head:"الاثنين 18 دجنبر 2026", items:[["عروض شفوية وملصقات","جلسات علمية متوازية"],["لقاء مع الفاعلين الاقتصاديين","مائدة مستديرة جامعة-مقاولة"]]},
+    {head:"الثلاثاء 19 دجنبر 2026", items:[["عروض شفوية وملصقات","جلسات علمية متوازية"],["لقاء مع الفاعلين الاقتصاديين","مائدة مستديرة جامعة-مقاولة"]]},
+    {head:"الأربعاء 20 دجنبر 2026", items:[["رحلة استكشافية للمغارات","مغارة وين تيمدوين، إموزار إيدا وتنان"]]}
   ],
   committees_eyebrow:"الحكامة العلمية", committees_title:"لجان المؤتمر",
   committee_sci_title:"اللجنة العلمية",
@@ -683,14 +807,14 @@ ar: {
     "المحتوى: السياق، الأهداف، المنهجية، النتائج، الخلاصة.",
     "من 3 إلى 5 كلمات مفتاحية.",
     "نوع العرض: شفوي أو ملصق.",
-    "آخر أجل: 1 شتنبر 2026 — الإعلان عن النتائج: 1 أكتوبر 2026."
+    "آخر أجل: 31 أكتوبر 2026 — الإعلان عن النتائج: 16 نونبر 2026."
   ],
   submission_cta_title:"جاهز لتقديم ملخصك؟",
   submission_cta_body:"املأ الاستمارة الإلكترونية (Google Forms) قبل 1 شتنبر 2026. ستتوصل بإشعار استلام تلقائي.",
   submission_cta_btn:"الانتقال إلى استمارة التقديم ↗",
   registration_eyebrow:"المشاركة", registration_title:"التسجيل في المؤتمر",
   registration_fees_title:"الفئات والرسوم",
-  fees:[["أستاذ باحث","سيُحدد لاحقًا"],["طالب دكتوراه","سيُحدد لاحقًا"],["طالب","سيُحدد لاحقًا"],["مهني","سيُحدد لاحقًا"]],
+  fees:[["أستاذ باحث","1000 درهم مغربي / 100 أورو"],["طالب دكتوراه","500 درهم مغربي / 50 أورو"],["طالب","500 درهم مغربي / 50 أوروا"],["مهني","1000 درهم مغربي / 100 أورو"]],
   registration_procedure_title:"الإجراءات",
   registrationProcedure:[
     "تعبئة استمارة التسجيل الإلكترونية.",
@@ -698,7 +822,8 @@ ar: {
     "رفع وصل التحويل داخل الاستمارة.",
     "تلقي تأكيد من اللجنة المنظمة عبر البريد الإلكتروني."
   ],
-  bankBox:"اسم الحساب: [سيُستكمل]<br>RIB: [سيُستكمل]<br>آخر أجل للتسجيل: 15 نونبر 2026",
+  bankBox:"اسم الحساب: جمعية علم الكهوف البحرية آسفي<br>RIB: 250590067204005651010201<br>آخر أجل للتسجيل: 15 نونبر 2026",
+
   registration_cta_title:"احجز مكانك",
   registration_cta_body:"التسجيل قبل 15 نونبر 2026. الأداء فقط عبر التحويل البنكي.",
   registration_cta_btn:"الانتقال إلى استمارة التسجيل ↗",
@@ -718,19 +843,18 @@ ar: {
     ["كيف أصبح شريكًا؟","تواصلوا مع اللجنة المنظمة عبر استمارة الاتصال."]
   ],
   partners_eyebrow:"شركاؤنا", partners_title:"الشركاء والرعاة",
-  partners_intro:"جامعة ابن زهر، كلية العلوم بأكادير، مختبر GEG — وشعاركم هنا.",
+  partners_intro:"جامعة ابن زهر، كلية العلوم بأكادير، مختبر GEG ، المركز الوطني للبحث العلمي والتقني — جمعية علم الكهوف البحرية آسفي",
   contact_eyebrow:"راسلونا", contact_title:"اتصل بنا",
   contact_lbl_org:"الجهة المنظمة", contact_lbl_email:"البريد الإلكتروني", contact_lbl_phone:"الهاتف", contact_lbl_coord:"المنسق",
   contact_form_name:"الاسم الكامل", contact_form_email:"البريد الإلكتروني", contact_form_message:"الرسالة", contact_form_send:"إرسال الرسالة",
   footer_text:"© 2026 CIG — مختبر GEG، كلية العلوم بأكادير، جامعة ابن زهر.",
   footer_tagline:"موقع مصمم ومستضاف مجانًا.",
-  dates:[["فتح التقديم","1 يناير 2026"],["آخر أجل للتقديم","1 شتنبر 2026"],["الإعلان عن النتائج","1 أكتوبر 2026"],["آخر أجل للتسجيل","15 نونبر 2026"],["المؤتمر","21–23 دجنبر 2026"]]
+  dates:[["فتح التقديم","14 شتنبر 2026"],["آخر أجل للتقديم","31 أكتوبر 2026"],["الإعلان عن النتائج","16 نونبر 2026"],["آخر أجل للتسجيل","31 أكتوبر 2026"],["المؤتمر","18–20 دجنبر 2026"]]
 }
 };
 
 const bandColors = ["#0B4F73","#3F8F5F","#0B4F73","#3F8F5F","#E8993A"];
 const trackBg = ["#0B4F73","#3F8F5F","#E8993A"];
-
 function render(lang){
   const t = T[lang];
   document.documentElement.lang = lang;
